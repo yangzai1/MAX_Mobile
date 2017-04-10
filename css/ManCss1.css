@@ -1,0 +1,416 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+li{
+    
+    list-style:none ;
+}
+table{ border-collapse:collapse;}
+th,td{
+    padding: 0;
+    border:1px solid #dfdfdf;
+}
+img{
+    vertical-align:top ;
+    
+}
+.clear{ zoom:1}
+.clear:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+body{
+    background:#f5f5f5;
+}
+.Padre{
+    text-align: center;
+
+}
+.cabeza{
+    width:100%;
+    height:2.816rem;
+    background-color:#0196ff;
+    color:#fff;
+    font-size:1.12rem;
+    text-align: center;
+    line-height:2.816rem;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+}
+.Cuenta{
+    width:14.656rem;
+    height:13.76rem;
+    border: .032rem solid #dcdcdc;
+    background-color:#fff;
+   /* display:table-cell;*/
+   margin-top: 290px;
+     display: inline-block;
+    vertical-align: middle;
+    /*position:absolute;top:50%;left:50%;
+    margin: -7.328rem 0 0 -6.88rem;*/
+}
+.Entrar a{
+    display:inline-block;
+    width:14.656rem;
+    height:2.368rem;
+    background-color:#0196ff;
+    border-radius:.128rem;
+    text-align: center;
+    line-height:2.368rem;
+    font-size: 1.088rem;
+    color:#fff;
+    margin-top: 3.84rem;
+}
+.Cuenta{
+    position:relative;
+}
+.Cuenta a{
+    width:3.84rem;
+    height:3.84rem;
+    border:.032rem solid #0196ff;
+    border-radius:50%;
+    display:inline-block;
+    position:absolute;top:-1.92rem;left:5.248rem;
+   /* background-color:#fff;*/
+    background:url(../imges/touxiang.png) no-repeat;
+}
+.Cuenta ul{
+    width:10.528rem;
+    height:6.272rem;
+    /*background-color:#09f;*/
+    margin:auto;
+    margin-top:3.624rem;
+}
+.Cuenta ul li{
+    width:100%;
+    height:2.944rem;
+    border-bottom:.032rem solid #dcdcdc;
+}
+.Cuenta ul li img{
+    margin-top:1.28rem;
+}
+.Cuenta ul li input{
+    margin-top:1.28rem;
+    height:1.152rem;
+    margin-left:.64rem;
+    padding:.192rem;
+    border:none;
+    font-size: .576rem;
+}
+.Cuenta ul>li:nth-of-type(1){
+    text-align:left;
+}
+.Cuenta ul>li:nth-of-type(2){
+    text-align:left;
+    vertical-align: middle;
+}
+/*底部固定定位*/
+.BaoKuShareShare{
+    width:100%;
+    height:3.136rem;
+    background-color:#fff ;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size:.384rem;
+    
+    vertical-align: middle;
+}
+.BaoKuShareShare ul{
+    text-align: center;
+
+}
+.BaoKuShareShare ul li{
+    float:left;
+    width:25%;
+    padding-top: .544rem;
+}
+.BaoKuShareShare ul li p{
+    padding-top: .544rem;
+}
+/*搜索*/
+.Busqueda{
+    width:100%;
+    height:2.816rem;
+    margin-top:2.999rem;
+    /*border: .032rem solid #dcdcdc;*/
+    /*padding: .704rem;*/
+}
+.Busqueda input{
+    width:75%;
+    height:100%;
+    padding-left:.704rem;
+    float:left;
+    background-color:#fff;
+    border:none;
+    font-size: .96rem;
+}
+.Busqueda a{
+    width:22%;
+    height:100%;
+    float:left;
+    background-color:#e5e5e5;
+    font-size: .96rem;
+    line-height:2.816rem;
+    color:#909090;
+}
+.Busqueda a img{
+   margin-top:.96rem;
+   margin-right:.32rem;
+}
+.Tratamiento{
+    width:100%;
+    /*height:8.128rem;*/
+    /*border:.032rem solid #dcdcdc;*/
+    background-color:#fff ;
+    margin-top:.64rem;
+    
+}
+.TratamientoDiv1{
+    width:100%;
+    /*height:8.128rem;*/
+    height:4.8rem;
+    background-color:#fff ;
+    padding-top: .64rem;
+   /* padding:.64rem;*/
+}
+.Tratamiento ul:nth-of-type(1){
+   float:left;
+   /*width:10.64rem;*/
+   margin-right:1.64rem;
+   color:#010101;
+  /* margin-left: .64rem;*/
+}
+.Tratamiento ul:nth-of-type(1)>li{
+margin-bottom: .576rem;
+}
+.Tratamiento ul:nth-of-type(2){
+    float:left;
+     width:10.856rem;
+     color:#010101;
+}
+.Tratamiento ul:nth-of-type(2)>li{
+margin-bottom: .576rem;
+}
+.Tratamiento ul:nth-of-type(1)>li{
+    text-align:left;
+    padding-left: .64rem;
+    font-size:.736rem;
+}
+.Tratamiento ul:nth-of-type(2)>li{
+    text-align:left;
+    font-size:.736rem;
+}
+.Tratamiento ul li input{
+    border: none;
+    border-bottom: .032rem solid #dcdcdc;
+    width: 6.864rem;
+}
+.Tratamiento ul:nth-of-type(1)>li:nth-of-type(1)>span{
+   margin-right:.94rem;
+}
+.Tratamiento ul:nth-of-type(1)>li>span{
+margin-bottom: .384rem;
+}
+.Tratamiento ul:nth-of-type(2)>li:nth-of-type(1)>span{
+   margin-right:.94rem;
+}
+
+
+.Tratamiento .TratamientoDiv2{
+    float:left;
+    background-color:#e5e5e5;
+    width:100%;
+    height:2.048rem;
+}
+.Tratamiento .TratamientoDiv2 ul:nth-of-type(1){
+    width:100%;
+    height:100%;
+
+}
+.Tratamiento .TratamientoDiv2 ul:nth-of-type(1)>li{
+    float:left;
+    width:50%;
+    height:100%;
+    text-align: center;
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+    vertical-align: top;
+}
+
+.Tratamiento .TratamientoDiv2 ul:nth-of-type(1)>li>span{
+    display:inline-block;
+    margin-top: .64rem; 
+}
+.Tratamiento .TratamientoDiv2 ul:nth-of-type(1)>li:nth-of-type(1){
+    background:url(../imges/Tratamiento.png) no-repeat 3.6rem center;
+}
+.Tratamiento .TratamientoDiv2 ul:nth-of-type(1)>li:nth-of-type(2){
+    background:url(../imges/delet2.png) no-repeat 3.6rem center;
+}
+.Tratamiento .TratamientoDiv2 ul:nth-of-type(1)>li:nth-of-type(1):active{
+    color:#fff;
+    background:url(../imges/Tratamiento1.png) #0196ff no-repeat 3.6rem center;
+}
+.Tratamiento .TratamientoDiv2 ul:nth-of-type(1)>li:nth-of-type(2):active{
+    color:#fff;
+    background:url(../imges/delet.png) #0196ff no-repeat 3.6rem center;
+}
+
+
+/*回退*/
+.cabeza img{
+    margin-left:.64rem;
+    float:left;
+    vertical-align: middle;
+    margin-top:1.12rem ;
+}
+
+.BaoKuShareMack{
+    width:100% ;
+    height:100% ;
+    position:fixed ;
+    background:rgba(0,0,0,0.8) ;
+    left:0 ;
+    top:0;
+    z-index: 200;
+    display:flex ;
+    
+}
+.BaoKuShareMackDig{
+    
+    width:90% ;
+    height:7.63rem ;
+    background:white ;
+    margin: auto auto ;
+    border-radius:0.32rem ;
+    overflow: hidden;
+    font-size:0.96rem;
+    
+}
+.BaoKuShareMackDig>div:nth-of-type(1){
+    width: 100%;
+    height: 4.288rem;
+    border-bottom:1px solid #DFDFDF;
+    display:flex ;
+}
+.BaoKuShareMackDig>div:nth-of-type(1)>p{
+    width:90% ;
+    margin:auto auto;
+    color:#282828;
+    
+}
+.BaoKuShareMackDig>div:nth-of-type(2){
+    width: 100%;
+    height: 2.944rem;
+    text-align: center;
+    line-height:2.944rem ;
+    color:#EA3C31;
+}
+
+
+/*已处理协同*/
+.Padre1{
+
+}
+.HbordadoDiv1{
+    width:100%;
+    margin-top:2.999rem;
+}
+.HbordadoText{
+    padding:.64rem;
+
+}
+
+.HbordadoText div:nth-of-type(1){
+    width:50%;
+    float:left;
+}
+.HbordadoText div:nth-of-type(2){
+    width:50%;
+    float:left;
+}
+.HbordadoText div:nth-of-type(3){
+    margin-top:.768rem;
+    float:left;
+}
+.HbordadoText div:nth-of-type(2)>a>img{
+    margin-left: 3.8rem;
+}
+.HbordadoDiv2{
+    width:100%;
+}
+.HbordadoText2{
+    padding:.64rem;
+    
+}
+.HbordadoText2 div:nth-of-type(1){
+    padding:.64rem;
+   /* width:21.2rem;*/
+   /* height: 8.64rem;*/
+   font-size:.836rem;
+    border:.032rem solid #dcdcdc;border-radius:.16rem;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+.HbordadoText2 div:nth-of-type(1)>p{
+   padding-top:.64rem;
+   padding-bottom: -0.6rem;
+   /* width:21.2rem;*/
+}
+/*.HbordadoText2 div:nth-of-type(1)>p{
+   padding-top:.64rem;
+   padding-bottom: .64rem;
+   /* width:21.2rem;
+}*/
+/*.HbordadoText2 p:nth-of-type(1)>span:nth-of-type(2){
+    margin-left: 2.56rem;
+}*/
+/*编辑广告主信息*/
+.Abajolacabeza{
+    width:100%;
+    height:.48rem;
+    margin-top:2.816rem;
+    background:#f5f5f5;
+}
+.Publicidad{
+    width:100%;
+}
+.PublicidadDiv1{
+    padding:.64rem;
+}
+.PublicidadDiv1Childen{
+    padding:.64rem;
+    border:.032rem solid #dcdcdc;border-radius:.16rem;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+.PublicidadDiv1Childen p>span{
+    height:1.572rem;
+    line-height: 1.572rem;
+    display:inline-block;
+    font-size: .832rem;
+}
+.PublicidadDiv1Childen p>span>span:nth-of-type(1){
+    margin-right: 0.508rem;
+}
+.PublicidadDiv1Childen p>span>span:nth-of-type(2){
+    margin-right: 0.508rem;
+}
+.PublicidadDiv1Childen p>input{
+    width:14.656rem;
+    height:1.472rem;
+    margin-left: .64rem;
+     padding:.16rem;
+    margin-bottom:.64rem;
+    font-size: .704rem;
+}
